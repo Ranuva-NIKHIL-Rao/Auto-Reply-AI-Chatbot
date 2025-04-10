@@ -16,7 +16,7 @@ This project automates the process of interacting with a chat application, speci
 
 3. **Humorous Response Generation**
 
-   - Integrates with OpenAI's GPT-3.5-turbo model to generate funny, roast-style responses based on the analyzed chat history.
+   - Integrates with OpenAI's GPT-4o-mini model to generate funny, roast-style responses based on the analyzed chat history.
 
 4. **Clipboard Operations**
 
@@ -48,7 +48,7 @@ This project automates the process of interacting with a chat application, speci
 3. **Message Analysis**
 
    - Analyze the copied chat history to check if the last message is from a specific user (e.g., "Rohan Das").
-   - If the last message is from the target user, send the chat history to OpenAI's GPT-3.5-turbo to generate a humorous response.
+   - If the last message is from the target user, send the chat history to OpenAI's GPT-4o-mini to generate a humorous response.
 
 4. **Send Response**
 
@@ -71,7 +71,7 @@ This project automates the process of interacting with a chat application, speci
 1. **pyautogui**: For automating mouse and keyboard interactions.
 2. **time**: For adding delays between operations.
 3. **pyperclip**: For clipboard operations.
-4. **openai**: For interacting with OpenAI's GPT-3.5-turbo model.
+4. **openai**: For interacting with OpenAI's GPT-4o-mini model.
 5. **os**: For environment variable management.
 6. **re**: For regular expression operations.
 7. **dotenv**: For loading environment variables from a `.env` file.
@@ -88,4 +88,3 @@ This project automates the process of interacting with a chat application, speci
 1. Ensure the chat application is open and ready for interaction.
 2. Run the `bot.py` script.
 3. The bot will automatically interact with the chat application, analyze chat history, and generate humorous responses.
-
